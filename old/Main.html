@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>
+Main Page
+</title>
+<style>
+body{
+background-color:lightblue;
+}
+li{
+float:left;
+list-style:none;
+width:300px;
+}
+</style>
+</head>
+<body>
+<body>
+    <?php 
+    $conn=oci_connect("system","krutika","localhost/orcl");
+?>
+<hr>
+<h1><center>THEATRE MANAGEMENT SYSTEM</center></h1>
+<hr>
+<center><h3>ENTER YOUR QUERY HERE</h3>
+<textarea rows="5" cols="80">
+ENTER YOUR QUERY
+</textarea>
+<ul>
+   <li><button type="button" onclick="">INSERT</button></li>
+   <li><button type="button" onclick="">DELETE</button></li>
+   <li><button type="button" onclick="">UPDATE</button></li>
+   <li><button type="button" onclick="">SELECT</button></li>
+</ul></center>
+<br>
+
+</body>
+</html>

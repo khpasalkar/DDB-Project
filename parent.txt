@@ -1,0 +1,10 @@
+<?php
+    if($_POST['submit'])
+	{
+		$pwd=$_POST['password'];
+		if($pwd=='krutika')
+		{
+			header( "Location:http://http://localhost/test/parent_page.php" ); die;
+		}
+     }
+?>
